@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36930.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundEligibilitySystem", "RefundEligibilitySystem\RefundEligibilitySystem.csproj", "{93DDBF53-B150-4FA9-AC33-C4062947BA08}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundEligibilitySystem.Domain", "RefundEligibilitySystem.Domain\RefundEligibilitySystem.Domain.csproj", "{0B48AAAE-C928-4728-8DAE-0C858E6FA45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundEligibilitySystem.Infrastructure", "RefundEligibilitySystem.Infrastructure\RefundEligibilitySystem.Infrastructure.csproj", "{C019B8C5-4AF0-B17D-4BFE-F5EEDDDEA093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefundEligibilitySystem.Application", "RefundEligibilitySystem.Application\RefundEligibilitySystem.Application.csproj", "{B033A872-3A0A-42F2-C63E-86DCD93B03C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DDBF53-B150-4FA9-AC33-C4062947BA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DDBF53-B150-4FA9-AC33-C4062947BA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DDBF53-B150-4FA9-AC33-C4062947BA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DDBF53-B150-4FA9-AC33-C4062947BA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B48AAAE-C928-4728-8DAE-0C858E6FA45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B48AAAE-C928-4728-8DAE-0C858E6FA45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B48AAAE-C928-4728-8DAE-0C858E6FA45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B48AAAE-C928-4728-8DAE-0C858E6FA45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C019B8C5-4AF0-B17D-4BFE-F5EEDDDEA093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C019B8C5-4AF0-B17D-4BFE-F5EEDDDEA093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C019B8C5-4AF0-B17D-4BFE-F5EEDDDEA093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C019B8C5-4AF0-B17D-4BFE-F5EEDDDEA093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B033A872-3A0A-42F2-C63E-86DCD93B03C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B033A872-3A0A-42F2-C63E-86DCD93B03C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B033A872-3A0A-42F2-C63E-86DCD93B03C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B033A872-3A0A-42F2-C63E-86DCD93B03C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEA68B6C-B314-4D1D-AAB9-E825A902E113}
+	EndGlobalSection
+EndGlobal

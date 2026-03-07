@@ -1,0 +1,24 @@
+services:
+  refundeligibilitysystem:
+    image: ${DOCKER_REGISTRY-}refundeligibilitysystem
+    build:
+      context: .
+      dockerfile: RefundEligibilitySystem/Dockerfile
+    depends_on:
+      sqlserver:
+        condition: service_healthy
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver_db
+  
+
+  refund-client:
+    build:
+      context: ./refund-client
+    image: refund-system-ui:v1.0
+    ports:
+      - "3000:80"
+    depends_on:
+      - refundeligibilitysystem
+    container_name: refund_client
