@@ -9,7 +9,7 @@ docker compose up
 
 ### קישורים לגישה:
 * UI (React): http://localhost:3000
-* Backend API Documentation (Scalar): https://localhost:8081/scalar/v1
+* Backend API Documentation (Scalar): https://localhost:8080/scalar/v1
 
 ---
 
